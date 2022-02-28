@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Tribute</title>
+        
+            <style>
+                #main{
+                    background-color: rgb(228, 206, 131);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+                #title{
+                    margin: auto;
+                    font-size: 7vmin;
+                    padding-bottom: 10px;
+                }
+        
+                #img-div{
+                    margin: auto;
+                    width: 60vw;
+                    height: 80vh;
+                    
+                    
+                }
+        
+                #image{
+                    max-width: 100%;
+                    height: auto;
+                    width: 300px;
+                    
+                    
+                }
+        
+                #img-caption{
+                    text-align: center;
+                    font-size: 3vmin;
+                }
+                #felx{
+                    display:flex ;
+                    justify-content: center;
+                   }
+        
+                   .color{
+                    color:rgb(70, 2, 2);
+                   }
+                #tribute-info{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    
+                }
+                    
+                    
+                    
+                
+            </style>
+        </head>
+        <body id="main">
+                <h1 id="title">Tribute To Micheal Jackson</h1>
+        
+                <div id="img-div">
+                    <div id="felx">
+                    <img id="image" alt="michael with his pet monkey" src="data:image/jpeg;base64,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" alt="Micheal Jackson black&white">
+                    </div>
+                    <p id="img-caption">Michael Joseph Jackson was an American singer, songwriter and dancer. Dubbed the "King of Pop", he is regarded as one of the most significant cultural figures of the 20th century.</p>
+                </div>
+        
+                <div id="tribute-info">
+                    <h1 list of his best songs></h1>
+                    <ul>
+                        <li> <strong>Got to be There </strong></li>
+                        <li> Ain't no sunshine </li>
+                        <li>My Girl</li>
+                        <li>Ben</li>
+                        <li>Greatest Show</li>
+                        <li> I wanna Be where you are</li>
+                    </ul>
+                    <h2>Listen to these songs here:</h2>
+                    <div id="tribute-link">
+                        <a class="color" href="https://open.spotify.com/playlist/37i9dQZF1DXaTIN6XNquoW?si=98c7fb32cd4e4302" target="_blank">Click Here</a>
+                        
+                    </div>
+                </div>
+            </body>
+        </html>
+    </h1>
+</body>
+</html>
+                        
+        
+        
+        
